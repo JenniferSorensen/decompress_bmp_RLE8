@@ -6,7 +6,7 @@ Link to the Microsoft documentation for Bitmaps: https://docs.microsoft.com/de-d
 Link to the Microsoft documentation for Bitmap Compression: https://docs.microsoft.com/en-us/windows/win32/gdi/bitmap-compression
 
 # How to run this project
-This project is supposed to run on a Unix system. Use the makefile to compile the project and run 'decompressbmprle8'. You can use the testimage 'lena_compressed.bmp' to test the tool.
+Use the makefile to compile the project and run 'decompressbmprle8'. You can use the testimage 'lena_compressed.bmp' to test the tool.
 
 # main.c
 Contains the code that gets the source path of the compressed bitmap file and the target path for the resulting decompressed bitmap file from the user. The code checks if the source file exists and if it is compressed. It also checks if the target path does already exist. If the file is a compressed bitmap the decompressBitmap function in bmp.c gets called.
